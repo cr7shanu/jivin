@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body, html {
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+	 /* The image used */
+    background-image: url("images/5.jpg");
+	
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.bg-img {
+   
+}
+
+/* Add styles to the form container */
+.containersignup {
+	padding-top:800px;
+    position: 100px 100px;
+    right: 0;
+    margin: 20px;
+    max-width: 490px;
+    padding: 10px;
+    background-color: rgb(1,9,8,0.5);
+	height:auto;
+	}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 3px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+/* Set a style for the submit button */
+.btnsignup {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+.btnsignup:hover {
+    opacity: 1;
+}
+.login{
+margin-top:200px;
+margin-left:400px;
+}
+</style>
+</head>
+<body>
+
+<div class="login">
+  <form action="welcome.html">
+    <div class="containersignup">
+	<br>
+      <center><h1><font-color="blue">Sign Up</font></h1><center>
+	  <label for="email"><b>Email</b></label>
+      <input type="text" placeholder="Enter Email" name="email" required>
+
+
+      <label for="email"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="email" required>
+
+      <button type="submit" class="btnsignup">LOGIN</button>
+    </div>
+  </form>
+
+</div>
+</body>
+</html>
